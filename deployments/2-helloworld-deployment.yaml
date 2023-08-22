@@ -38,9 +38,9 @@ spec:
           env:
            - name: VERSION
              value: "1.4"
-        volumeMounts:
-        - name: my-volume
-          mountPath: /mount-path
+          volumeMounts:
+          - name: my-volume
+            mountPath: /mount-path
       volumes:
       - name: my-volume
         persistentVolumeClaim:
