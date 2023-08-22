@@ -38,7 +38,7 @@ spec:
           env:
            - name: VERSION
              value: "1.4"
-          volumeMounts:
+      volumeMounts:
           - name: my-volume
             mountPath: /mount-path
       volumes:
